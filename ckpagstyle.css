@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  background-color:  #38FF95;
+  font-family: "Offside", serif;
+}
+
+main {
+
+}
+
+section {
+
+}
+
+h1 {
+  font-family: "Offside", san-serif;
+  font-size: 400%;
+
+}
+
+#poem {
+  font-family: "Offside", san-serif;
+  font-size: 200%;
+}
+
+#photo1 {
+  width: 240px;
+  border: 10px solid #FF7D68;
+}
+
+#photo2 {
+  width: 240px;
+  border: 10px solid #61C0E8;
+}
+#try-again-out {
+
+}
+
+#choice1 {
+
+}
+
+#choice2 {
+
+}
