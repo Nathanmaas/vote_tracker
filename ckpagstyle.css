@@ -8,7 +8,18 @@ main {
 
 }
 
-section {
+.flexbox{
+    display: -webkit-flex;
+    margin:auto;
+    padding:auto;
+
+    -webkit-flex-direction:row;
+    -webkit-flex-flow:flex-start;
+    margin:auto;
+    padding:auto;
+    justify-content:space-around;
+    /*-webkit-flex infront of things to make it work in browser - chrome*/
+}
 
 }
 
@@ -18,7 +29,7 @@ h1 {
 
 }
 
-#poem {
+.poem {
   font-family: "Offside", san-serif;
   font-size: 200%;
 }
