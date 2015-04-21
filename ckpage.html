@@ -5,36 +5,30 @@
   <title>Laser Kitten Ninja Bot</title>
   <link rel="stylesheet" type="text/css" href
   ="ckpagstyle.css">
-  <link href="http://fonts.googleapis.com/css?family=Offside" rel="stylesheet" type="text/css"
-  <script src="ckpag.js"></script>
-</head>
+  <link href="http://fonts.googleapis.com/css?family=Offside" rel="stylesheet" type="text/css">
 <body>
   <main>
     <header>
       <h1>Laser Kitten Ninja Bot</h1>
-      <div id="poem">
-        <p>In The Cosmos, Many Stars & Space,</p>
-        <p>On Earth, Beautiful Kittens Roam With Grace,</p>
-        <p>Although Peaceful This Furry Friendly Lot,</p>
-        <p>Cute They Battle: Laser - Kitten - Ninja - Bot!</p>
+      <div id="poem" class="poem">
+        <p>In The Cosmos, Many Stars & Space,
+        On Earth, Beautiful Kittens Roam With Grace,
+        Although Peaceful This Furry Friendly Lot,
+        Cute They Battle: Laser - Kitten - Ninja - Bot!
+      </p>
       </div>
     </header>
-    <section id="votecontainer">
-      <div id="first" class="first-box">
-        <div id="photo1"><img id="photo-1" src="cat2.jpeg"></div>
-      <p id="button1-out" class="show"><button id="choice1">I'm The Cutest</button></p>
-    </div>
-    <canvas id="canvis" width="150" height="150"></canvas>
-    <div <section id="votecontainer">
-      <div id="second" class="second-box">
-        <div id="photo2"><img id="photo-2" src="cat3.jpg"></div>
-      <p id="button1-out" class="show"><button id="choice2">No I'm The Cutest</button></p>
+    <section>
+      <img src="" id="cat1" data-idx="0">
+      <canvas id="myChart" width="200" height="250"></canvas>
+      <img src="" id="cat2" data-idx="0">
     </section>
-    <footer>
-      <p id="try-again-out" class="appears"><button id="try-again">New Cat Fight</button>
-    </footer>
+    <button id="btn">Next Game</button>
   </main>
 </body>
+ <script src="chart.js"></script>
+  <script src="jquery.js"></script>
+  <script src="ckpag.js"></script>
 </html>
 
 
